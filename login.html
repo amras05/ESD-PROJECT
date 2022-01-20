@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login to REACH UR GOALS</title>
+    <style>
+
+    #title
+    {
+      text-align: center;
+      margin-top: -2%;
+      margin-bottom: -2%;
+    }
+      body {
+      background-image: url('klu.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    #logo, #logo_symbol
+    {
+      width: 450px;
+      height: 300px;
+      margin-top: -0.5%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      position: relative;
+      align-items: center;
+    }
+
+    #logo_symbol
+    {
+      margin-left: -4%;
+    }
+
+    .body-content
+    {
+        padding-top: 14.25vh;
+    }
+
+    .container {
+        width: 400px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        border-radius: 15px;
+    }
+
+    h2 {
+        color: rgb(87, 83, 83);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-item {
+        margin: 5px;
+        padding-left:8px;
+        padding-bottom: 10px;
+        display: flex;
+    }
+
+    #home_btn
+    {
+      text-decoration: none;
+      padding: 10px;
+      font-size: 20px;
+      display: inline;
+      float: left;
+      color: #cf2e0f
+    }
+
+    .form-item label {
+        display: block;
+        padding: 2px;
+        font-size: 20px;
+        width: 100px;
+    }
+
+    .form-item input {
+        width: 350px;
+        height: 40px;
+        border: 2px solid rgb(208, 234, 238);
+        border-radius: 20px;
+        background:rgb(208, 234, 238);
+        color: black;
+        text-align: center;
+        font-size: 20px
+    }
+
+    .form-btns {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 20px 0px;
+    }
+
+    #sign_btn
+    {
+        margin-bottom: -2%;
+    }
+
+    #form_btn{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 25px;
+        background:#efdecd;
+        width: 140px;
+        cursor: pointer;
+    }
+    .options
+     {
+        padding-top: 15px;
+        margin: auto;
+    }
+
+    .options a {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration:underline;
+        color: black;
+        margin: 0 45px;
+        font-size: 18px;
+        padding-bottom:34px;
+
+    }
+
+    .options a:hover {
+        color:snow;
+    }
+
+    hr {
+        background: grey;
+        width: 75%;
+    }
+
+    .login-options {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    </style>
+    <script>
+
+    </script>
+      </head>
+  <body>
+    <a href="home.html" id="home_btn" >Home</a>
+    <div class="Logintable">
+      <img src="klu.png" alt="KLUNIVERSITY" id="logo">
+      <h1 id="title">KING OF PLACEMENTS</h1>
+    </div>
+    <div class="body-content">
+        <div class="container">
+            <br><br>
+            <div class="login-form">
+                <form>
+                    <div class="form-item">
+
+                        <input type="text" name="userName" id="userName" placeholder="UserName or Email" minlenth="5" maxlength="15" required>
+                    </div>
+                    <div class="form-item">
+                        <input type="password" name="passWord" id="passWord" placeholder="Password" minlenth="5" maxlength="15" required>
+                    </div>
+                    <input type="submit" id="form_btn" value="Login">
+
+                    <div class="options">
+                        <b><a id="sign_btn" href="signup.html">Sign Up</a></b>
+                    </div>
+
+                </form>
+            </div>
+            <hr>
+    </div>
+  </body>
+</html>
